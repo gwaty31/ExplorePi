@@ -1,0 +1,224 @@
+{
+    "navbar":{
+        "Statistic":"Statistique",
+        "Explorer":"Explorer",
+        "Stream":"Stream",
+        "Personal":"Personnel"
+    },
+    "explorer":{
+        "account":{
+            "Balance":"Solde",
+            "SubEntry":"SousEntrée",
+            "LastActiveBlock":"DernierBlocActif",
+            "LockUpBalance":"SoldeVerouiller"
+        },
+        "LatestBlocks10":"Derniers 10 Blocs",
+        "LatestPayments":"Derniers Paiements",
+        "LatestTransactions10":"Dernières 10 Transactions",
+        "Search":{
+            "placeholder":"CléPublique/Bloc/transaction"
+        },
+        "block":{
+            "Block":"Bloc",
+            "Transactions":"Transactions",
+            "Time":"Temps",
+            "Hash":"Dièse",
+            "Pre":"Pré Dièse",
+            "Operation":"Opération",
+            "Transaction":"Transaction",
+            "BaseFee":"Frais de Base",
+            "BaseReserve":"Réserve de Base",
+            "FeePool":"Frais de Bassin",
+            "TotalPi":"Pi Total",
+            "Protocol":"Protocole"
+        },
+        "payment":{
+            "From":"De",
+            "To":"Vers",
+            "Amount":"Montant",
+            "Time":"Temps"
+        },
+        "transaction":{
+            "Hash":"Dièse",
+            "Operation":"Opération",
+            "Time":"Temps",
+            "Account":"Compte",
+            "Transaction":"Transaction",
+            "Block":"Bloc",
+            "Fee":"Frais",
+            "Memo":"Mémo",
+            "op":"Operation",
+            "Success":"Succès",
+            "Failed":"Echoué",
+            "None":"Aucun"
+        },
+        "lockbalance":{
+            "Sponsor":"Sponsor",
+            "Balance":"Solde",
+            "Start":"Début(UTC)",
+            "Until":"Jusqu'à(UTC)"
+        },
+        "operation":{
+            "create_account":"{a} créer {b} avec {amount} Pi",
+            "payment":"{a} payer {amount} Pi à {b}",
+            "path_receive":"",
+            "path_send":"",
+            "manage_sell":"",
+            "manage_buy":"",
+            "passive_sell":"",
+            "set_options":"",
+            "change_trust":"",
+            "allow_trust":"",
+            "account_merge":"",
+            "manage_data":"",
+            "bump_sequence":"",
+            "create_claimable_balance":"{a} créer {amount} Pi pour {b}",
+            "claim_claimable_balance":"{a} réclamer le solde",
+            "begin_sponsoring":"",
+            "end_sponsoring":"",
+            "revoke_sponsorship":"",
+            "pool_deposit":"",
+            "pool_withdraw":"",
+            "type":{
+                "create_account":"créer compte",
+                "payment":"paiement",
+                "path_receive":"chemin réception paiement",
+                "path_send":"",
+                "manage_sell":"",
+                "manage_buy":"",
+                "passive_sell":"",
+                "set_options":"",
+                "change_trust":"",
+                "allow_trust":"",
+                "account_merge":"",
+                "manage_data":"",
+                "bump_sequence":"",
+                "create_claimable_balance":"créer solde réclamable",
+                "begin_sponsoring":"",
+                "end_sponsoring":"",
+                "revoke_sponsorship":"",
+                "pool_deposit":"",
+                "pool_withdraw":"",
+                "claim_claimable_balance":"réclamer solde réclamable"
+            },
+            "source":"Source",
+            "operation":"Operation",
+            "detail":"Détail",
+            "time":"Temps",
+            "no":"Il n'y a pas d'opération",
+            "account":"Compte"
+        }
+    },
+    "stream":{
+        "start":{
+            "title":"Streaming",
+            "q1":"Qu'est ce aue le Streaming?",
+            "answer":"Stream est une fonctionnalité de Stellar Horizon. Horizon fournit un mécanisme de diffusion en continu pour recevoir des événements en temps quasi réel.",
+            "button":"Start"
+        },
+        "but_start":"Start",
+        "but_stop":"Stop",
+        "input":"Compte({need})",
+        "Optional":"Optionel",
+        "Required":"Exigée",
+        "block":{
+            "Block":"Bloc",
+            "Tx":"Transaction",
+            "Time":"Temps"
+        },
+        "op":{
+            "title":"OPERATION"
+        },
+        "tx":{
+            "title":"TRANSACTION"
+        },
+        "pay":{
+            "title":"PAIEMENT"
+        }
+    },
+    "time":{
+        "second":"seconde",
+        "minute":"minute",
+        "hour":"heure",
+        "day":"jour",
+        "month":"mois",
+        "year":"année"
+    },
+    "statistic":{
+        "Metrics":{
+            "title":"METRIQUES",
+            "TotalAccount":"Total Comptes",
+            "TotalPioneer":"Total Pionniers",
+            "MigratedPi":"Pi Migré",
+            "PioneerHold":"Pionniers Détiennent",
+            "PiLocked":"Pi Vérouillé"
+        },
+        "TOP10":{
+            "title":"TOP 10",
+            "AccountBalance":"Solde du Compte",
+            "AccountFee":"Frais du Compte",
+            "AccountPayment":"Paiement du Compte",
+            "account":"Compte",
+            "amount":"Montant",
+            "PayForFee":"FraisPayé",
+            "Frequency":"Fréquence"
+        },
+        "Migrate":{
+            "title":"Fréquence de Migration",
+            "Month":"Mois",
+            "Year":"Année",
+            "ALL":"TOUT",
+            "Unlock":"Dévérouiller",
+            "lock":"Vérouiller",
+            "Migrateop":"Opération de Migration",
+            "CTclaim":"Réclamer par CT"
+        },
+        "Block":{
+            "title":"Performance du Bloc",
+            "closed":"Temps de fermeture moyen",
+            "op":"Total Operation",
+            "Month":"Mois",
+            "Year":"Année",
+            "ALL":"TOUT"
+        },
+        "Operation":{
+            "title":"Opération Totale Distribuer",
+            "Total":"Total",
+            "type":{
+                "create_account":"créer compte",
+                "payment":"paiement",
+                "path_receive":"chemin réception paiement",
+                "path_send":"chemain envois paiement",
+                "manage_sell":"Gérer l'offre de vente",
+                "manage_buy":"Gérer l'offre d'achat",
+                "passive_sell":"offre de vente passive",
+                "set_options":"définir une option",
+                "change_trust":"changer la confiance",
+                "allow_trust":"autoriser la confiance",
+                "account_merge":"Fusion de compte",
+                "manage_data":"gérer les données",
+                "bump_sequence":"bump séquence",
+                "create_claimable_balance":"créer solde réclamable",
+                "begin_sponsoring":"",
+                "end_sponsoring":"",
+                "revoke_sponsorship":"",
+                "pool_deposit":"",
+                "pool_withdraw":"",
+                "claim_claimable_balance":"réclamer solde réclamable"
+            }
+        },
+        "LockUP":{
+            "title":"Temps de Vérouillage",
+            "No":"Aucun",
+            "two_week":"Deux Semaines",
+            "six_month":"Six Mois",
+            "oneyear":"Un An",
+            "threeyears":"Trois Ans",
+            "Pioneers":"Pionniers"
+        }
+        
+        
+        
+    }
+    
+}
